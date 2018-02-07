@@ -1,0 +1,10 @@
+C:\Users\33989106880\backend\AutEFCookie\bin\Debug\netcoreapp2.0\AutEFCookie.deps.json
+C:\Users\33989106880\backend\AutEFCookie\bin\Debug\netcoreapp2.0\AutEFCookie.runtimeconfig.json
+C:\Users\33989106880\backend\AutEFCookie\bin\Debug\netcoreapp2.0\AutEFCookie.runtimeconfig.dev.json
+C:\Users\33989106880\backend\AutEFCookie\bin\Debug\netcoreapp2.0\AutEFCookie.dll
+C:\Users\33989106880\backend\AutEFCookie\bin\Debug\netcoreapp2.0\AutEFCookie.pdb
+C:\Users\33989106880\backend\AutEFCookie\obj\Debug\netcoreapp2.0\AutEFCookie.csproj.CoreCompileInputs.cache
+C:\Users\33989106880\backend\AutEFCookie\obj\Debug\netcoreapp2.0\AutEFCookie.AssemblyInfoInputs.cache
+C:\Users\33989106880\backend\AutEFCookie\obj\Debug\netcoreapp2.0\AutEFCookie.AssemblyInfo.cs
+C:\Users\33989106880\backend\AutEFCookie\obj\Debug\netcoreapp2.0\AutEFCookie.dll
+C:\Users\33989106880\backend\AutEFCookie\obj\Debug\netcoreapp2.0\AutEFCookie.pdb

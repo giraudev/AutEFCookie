@@ -8,7 +8,7 @@ namespace AutEFCookie.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int MyProperty { get; set; }
+        public int IdUsuario { get; set; }
 
         [Required]
         [StringLength(100, MinimumLength = 4)]
