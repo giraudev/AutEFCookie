@@ -41,26 +41,27 @@ namespace AutEFCookie
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseMvc(routes =>
-            {
-                //rota para direcionamento de página home
-                routes.MapRoute(
-                    name:"default",
-                    template: "{controller=Home}/{action=Index}/{id}"
-                );
-            });
-
-            app.UseAuthentication();
-            app.UseStaticFiles();
-
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
 
             }
 
-            
+            app.UseAuthentication();
+
+            app.UseStaticFiles();
+
+            app.UseMvc(routes => {
+                //rota para direcionamento de página home
+                routes.MapRoute(
+                   name: "default",
+                   /*colocar o Financeiro - Index, e não o login, pois o usuario quer acessar o financeiro, mas
+                   precisa ser autenticado. 
+                   Por isso usamos o [Authorize] na classe FinanceiroController.
+                   */
+                   template: "{controller=Financeiro}/{action=Index}/{id?}"
+               );
+           });
         }
     }
 }

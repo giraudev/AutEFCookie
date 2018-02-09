@@ -36,7 +36,7 @@ namespace AutEFCookie
                     logger.LogError(e, "Ocorreu um erro enquanto os dados foram enviados");
                 }
             }
-            ambiente.Run();
+            BuildWebHost(args).Run();
 
         }
 
