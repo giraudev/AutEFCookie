@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adminLocal\\.nuget\\packages\\": {},
+    "C:\\Users\\33989106880\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,14 +12542,14 @@
       "projectUniqueName": "C:\\Users\\33989106880\\backend\\AutEFCookie\\AutEFCookie.csproj",
       "projectName": "AutEFCookie",
       "projectPath": "C:\\Users\\33989106880\\backend\\AutEFCookie\\AutEFCookie.csproj",
-      "packagesPath": "C:\\Users\\adminLocal\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\33989106880\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\33989106880\\backend\\AutEFCookie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\adminLocal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\33989106880\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

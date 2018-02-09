@@ -1,3 +1,4 @@
+using System.Linq;
 using AutEFCookie.Models;
 
 namespace AutEFCookie.Dados
@@ -7,6 +8,12 @@ namespace AutEFCookie.Dados
         public static void Inicializar(AutenticacaoContext contexto)
         {
             contexto.Database.EnsureCreated();
+
+            //importa para não gravar sempre a mesma a coisa no banco
+            if (contexto.Usuarios.Any())
+            {
+                return;
+            }
 
             var usuario = new Usuario()
             {
